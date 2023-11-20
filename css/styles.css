@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+    width: 100%;
+    height: 100vh;
+}
+
+.card{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.advice-text{
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-text{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 28px;
+}
+
+.svg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-svg-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.generate-button{
+    border: 1px solid hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: 170px;
+    cursor: pointer;
+}
+
+.text{
+    color:white
+}
+
+/* mobile responsive section */
+@media all and (max-width:1000px){
+    html, body {
+        overflow-x: hidden;
+    }
+
+    body {
+        position: relative
+    }
+
+    .card{
+        height: 350px;
+        width: 450px;
+    }
+
+    .generate-button{
+        bottom: 170px;
+        position: fixed;
+    }
+
+}
