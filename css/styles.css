@@ -59,6 +59,7 @@
     color:white
 }
 
+
 /* mobile responsive section */
 @media all and (max-width:1000px){
     html, body {
@@ -67,16 +68,21 @@
     }
 
     body {
-        position: relative
+        position: relative;
     }
 
     .card{
         height: 350px;
-        width: 450px;
+        width: 300px;
     }
 
     .generate-button{
         bottom: 110px;
+    }
+
+    .d-svg{
+        width: 295px;
+        height: 16px;
     }
 
 }
