@@ -19,6 +19,9 @@ body{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 500px;
     height: 350px;
     border-radius: 15px;
@@ -67,6 +70,7 @@ body{
 
 /* mobile responsive section */
 @media all and (max-width:1000px){
+
     html, body {
         overflow-x: hidden;
     }
@@ -76,7 +80,6 @@ body{
     }
 
     .card{
-        height: 350px;
         width: 300px;
     }
 
@@ -84,9 +87,9 @@ body{
         bottom: 110px;
     }
 
-    .d-svg{
+    .svg-image{
         width: 295px;
-        height: 16px;
     }
+
 
 }
