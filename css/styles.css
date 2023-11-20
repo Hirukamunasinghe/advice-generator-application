@@ -4,6 +4,11 @@
     font-family: 'Manrope', sans-serif;
 }
 
+body{
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -64,7 +69,6 @@
 @media all and (max-width:1000px){
     html, body {
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
     body {
