@@ -63,6 +63,7 @@
 @media all and (max-width:1000px){
     html, body {
         overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     body {
@@ -75,8 +76,7 @@
     }
 
     .generate-button{
-        bottom: 170px;
-        position: fixed;
+        bottom: 110px;
     }
 
 }
